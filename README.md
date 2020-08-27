@@ -19,3 +19,18 @@ pip install premaseemutils
 16
 >
 
+# Build distribution 
+python setup.py bdist_wheel
+or
+python setup.py sdist
+
+# pushing distribution 
+pip install twine
+twine upload dist/*
+
+# install locally 
+pip install dist/premaseemutils-2.0.0-py3-none-any.whl
+
+
+# installing locally 
+
