@@ -11,26 +11,33 @@ an example of which is included in this project. You should edit this file
 accordingly to adapt this sample project to your needs.
 
 # installation 
+
 pip install premaseemutils
 
 # usage 
->>> from calculator.square import *
->>> get_square(4)
+
+from calculator.square import *
+get_square(4)
 16
->
+
 
 # Build distribution 
+
 python setup.py bdist_wheel
+
 or
+
 python setup.py sdist
 
 # pushing distribution 
+
 pip install twine
+
 twine upload dist/*
 
 # install locally 
+
 pip install dist/premaseemutils-2.0.0-py3-none-any.whl
 
 
-# installing locally 
 
