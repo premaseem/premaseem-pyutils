@@ -4,13 +4,13 @@
 
 import unittest
 
-from sample.simple import add_one
+from calculator.square import find_square
 
 
 class TestSimple(unittest.TestCase):
 
     def test_add_one(self):
-        self.assertEqual(add_one(5), 6)
+        self.assertEqual(find_square(5), 6)
 
 
 if __name__ == '__main__':
